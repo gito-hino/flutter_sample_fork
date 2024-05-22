@@ -16,7 +16,7 @@ final class AppInitializer {
     return AppBuildConfig(
       flavor: const String.fromEnvironment('flavor', defaultValue: 'dev'),
       appName:
-          const String.fromEnvironment('appName', defaultValue: 'Flutter Demo'),
+          const String.fromEnvironment('appName', defaultValue: 'Flutter Sample App'),
     );
   }
 }

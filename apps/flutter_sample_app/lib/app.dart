@@ -15,7 +15,7 @@ class App extends ConsumerWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Text(appName),
+      home: Text("This is the $appName!"),
     );
   }
 }
