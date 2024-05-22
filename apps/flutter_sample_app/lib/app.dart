@@ -10,7 +10,7 @@ class App extends ConsumerWidget {
     final appName = ref.watch(buildConfigProvider).appName;
 
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Hello Flutter',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
