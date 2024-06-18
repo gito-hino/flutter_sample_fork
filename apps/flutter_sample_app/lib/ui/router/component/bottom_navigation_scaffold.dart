@@ -20,10 +20,10 @@ class BottomNavigationScaffold extends StatelessWidget {
         items: BranchType.values
             .map(
               (e) => BottomNavigationBarItem(
-                icon: Icon(e.icon),
-                label: e.label,
-              ),
-            )
+            icon: Icon(e.icon),
+            label: e.label,
+          ),
+        )
             .toList(),
       ),
     );

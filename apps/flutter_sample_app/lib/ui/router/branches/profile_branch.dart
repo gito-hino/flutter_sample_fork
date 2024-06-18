@@ -13,7 +13,7 @@ const profileBranch = TypedStatefulShellBranch<ProfileBranch>(
 );
 
 final GlobalKey<NavigatorState> _profileNavigatorKey =
-    GlobalKey<NavigatorState>();
+GlobalKey<NavigatorState>();
 
 class ProfileBranch extends StatefulShellBranchData {
   const ProfileBranch();
@@ -26,8 +26,8 @@ class ProfileRoute extends GoRouteData {
 
   @override
   Widget build(BuildContext context, GoRouterState state) => Scaffold(
-        body: Center(
-          child: Text(BranchType.profile.label),
-        ),
-      );
+    body: Center(
+      child: Text(BranchType.profile.label),
+    ),
+  );
 }

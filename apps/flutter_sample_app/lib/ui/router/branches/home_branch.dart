@@ -25,15 +25,15 @@ class HomeRoute extends GoRouteData {
 
   @override
   Widget build(BuildContext context, GoRouterState state) =>
-      // TODO(sakurai): feature_homeを作成してこのScaffoldと差し替える
-      Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(BranchType.home.label),
-            ],
-          ),
-        ),
-      );
+      // TODO: feature_homeを作成してこのScaffoldと差し替える
+  Scaffold(
+    body: Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(BranchType.home.label),
+        ],
+      ),
+    ),
+  );
 }

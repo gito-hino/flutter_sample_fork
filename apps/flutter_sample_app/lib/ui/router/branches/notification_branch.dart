@@ -13,7 +13,7 @@ const notificationBranch = TypedStatefulShellBranch<NotificationBranch>(
 );
 
 final GlobalKey<NavigatorState> _notificationNavigatorKey =
-    GlobalKey<NavigatorState>();
+GlobalKey<NavigatorState>();
 
 class NotificationBranch extends StatefulShellBranchData {
   const NotificationBranch();
@@ -26,8 +26,8 @@ class NotificationRoute extends GoRouteData {
 
   @override
   Widget build(BuildContext context, GoRouterState state) => Scaffold(
-        body: Center(
-          child: Text(BranchType.notification.label),
-        ),
-      );
+    body: Center(
+      child: Text(BranchType.notification.label),
+    ),
+  );
 }

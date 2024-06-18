@@ -8,9 +8,15 @@ class App extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final appName = ref.watch(buildConfigProvider).appName;
+
     return MaterialApp.router(
       title: ref.watch(buildConfigProvider).appName,
       routerConfig: ref.watch(routerProvider),
     );
   }
 }
+
+
+
+

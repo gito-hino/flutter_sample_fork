@@ -24,14 +24,14 @@ class MainRoute extends StatefulShellRouteData {
 
   @override
   Widget builder(
-    BuildContext context,
-    GoRouterState state,
-    StatefulNavigationShell navigationShell,
-  ) {
+      BuildContext context,
+      GoRouterState state,
+      StatefulNavigationShell navigationShell,
+      ) {
     // branchesの数とBranchTypeの数が一致していない場合はエラーを出す
     assert(
-      _branches.length == BranchType.values.length,
-      'branches.lengthとBranchType.values.lengthは同じである必要があります',
+    _branches.length == BranchType.values.length,
+    'branches.lengthとBranchType.values.lengthは同じである必要があります',
     );
 
     // 各Branchの最初のページにいるかどうか
